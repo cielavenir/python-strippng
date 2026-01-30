@@ -15,7 +15,6 @@ jobs:
           - python-version: '3.14'
             os: windows-latest
             architecture: "x64"
-        include:
           - python-version: '3.14'
             os: macos-latest
             architecture: "x64"
