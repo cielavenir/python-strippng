@@ -19,6 +19,9 @@ def StripPNG(fin: BinaryIO, fout: BinaryIO) -> None:
             fout.write(head)
             fout.write(data)
 
-if __name__ == '__main__':
+def _Main():
     import sys
     StripPNG(sys.stdin.buffer, sys.stdout.buffer)
+
+if __name__ == '__main__':
+    _Main()

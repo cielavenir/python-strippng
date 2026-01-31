@@ -1,0 +1,1 @@
+from .strippng import StripPNG
