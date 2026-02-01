@@ -17,7 +17,7 @@ def StripPNG(fin: BinaryIO, fout: BinaryIO) -> None:
             fout.write(head)
             fout.write(data)
 
-def _Main():
+def _Main() -> None:
     import sys
     StripPNG(sys.stdin.buffer, sys.stdout.buffer)
 
